@@ -305,7 +305,8 @@ header .container .form i {
 landing {
     display: block;
     background-color: var(--bg-color);
-    background-image: url(/images/bg-new.jpg);
+    /* background-image: url(/images/bg-new.jpg); */
+    background-image: url(../images/bg-new.jpg);
     background-size: cover;
     min-height: 100vh;
     position: relative;
