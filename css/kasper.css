@@ -399,7 +399,7 @@ services .sevices-content .srv-box {
     services .sevices-content .srv-box {
         flex-direction: column;
         text-align: center;
-        margin-bottom: 30px;
+        margin-top: 70px;
     }
 }
 
@@ -785,7 +785,7 @@ states .text .box p {
 
 .team-skills .testimonials .content .text {
     border-bottom: 1px black solid;
-    margin-bottom: 50px;
+    margin-bottom: 83px;
 }
 
 .team-skills .testimonials .content .text p {
