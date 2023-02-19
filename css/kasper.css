@@ -4,7 +4,7 @@
     --transparent-color: rgb(15 116 143 / 70%);
     --secondary-color: #19c8fa;
     --para-color: #777;
-    --overlay: rgba(0, 0, 0, 0.6);
+    --overlay: rgba(0, 0, 0, 0.5);
     --bg-color: rgb(10, 10, 96);
     --transition-dur: 0.3s;
     --section-padding: 100px 0;
@@ -156,6 +156,13 @@ a#blue {
     top: 0;
 }
     /* End overlay */
+    /* Start Parallax */
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+    /* End Parallax */
 /* End Component */
 /* Start Header */
 header {
@@ -306,7 +313,6 @@ landing {
     display: block;
     background-color: var(--bg-color);
     background-image: url(../images/bg-new.jpg);
-    background-size: cover;
     min-height: 100vh;
     position: relative;
 }
@@ -431,7 +437,6 @@ design {
     position: relative;
     background-color: var(--bg-color);
     background-image: url(../images/bg_2.jpg);
-    background-size: cover;
     height: 600px;
     display: block;
     display: flex;
@@ -656,7 +661,6 @@ states {
     padding: var(--section-padding);
     background-color: var(--bg-color);
     background-image: url(../images/dimonds.png);
-    background-size: cover;
     display: block;
     position: relative;
 }
@@ -884,7 +888,6 @@ states .text .box p {
 .quote {
     background-color: var(--bg-color);
     background-image: url(../images/quote.jpg);
-    background-size: cover;
     padding: var(--section-padding);
     position: relative;
 }
@@ -990,7 +993,6 @@ pricing .container > h4 {
     padding: var(--section-padding);
     background-color: var(--bg-color);
     background-image: url(../images/subscribe.jpg);
-    background-size: cover;
     position: relative;
 }
 
@@ -1171,7 +1173,6 @@ footer {
     padding: var(--section-padding);
     background-color: var(--bg-color);
     background-image: url(../images/subscribe.jpg);
-    background-size: cover;
     position: relative;
     display: flex;
     justify-content: center;
