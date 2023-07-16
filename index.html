@@ -17,6 +17,7 @@
         <title>Kasper</title>
     </head>
     <body class="scroller">
+        <button id="scroll-up"><i class="fa-solid fa-up-long"></i></button>
         <!-- Start Header -->
         <header>
             <div class="container">
@@ -477,4 +478,23 @@
         </footer>
         <!-- End Footer -->
     </body>
+    <script>
+        const scrollUp = document.getElementById("scroll-up");
+
+        window.onscroll = function () {
+            if (scrollY >= 700) {
+                scrollUp.style.opacity = "1";
+                scrollUp.style.cursor = "pointer";
+            } else {
+                scrollUp.style.opacity = "0";
+                scrollUp.style.cursor = "initial";
+            }
+        }
+
+        scrollUp.onclick = function () {
+            if (window.scrollY >= 700) {
+                window.scrollTo(0, 0);
+            }
+        }
+    </script>
     </html>
